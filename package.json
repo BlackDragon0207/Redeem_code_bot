@@ -1,0 +1,17 @@
+{
+  "name": "hoyoverse-redeem-bot",
+  "version": "1.0.0",
+  "description": "호요버스/명조/엔드필드/니케 리딤코드 알림 디스코드 봇",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "register": "node scripts/register.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cheerio": "^1.2.0",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "node-cron": "^3.0.3"
+  }
+}
